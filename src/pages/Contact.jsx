@@ -15,29 +15,29 @@ const socialLinks = [
     url: "#",
     icon: "ri-instagram-line",
   },
-  {
-    url: "#",
-    icon: "ri-linkedin-line",
-  },
-  {
-    url: "#",
-    icon: "ri-twitter-line",
-  },
+  // {
+  //   url: "#",
+  //   icon: "ri-linkedin-line",
+  // },
+  // {
+  //   url: "#",
+  //   icon: "ri-twitter-line",
+  // },
 ];
 
 const Contact = () => {
   return (
-    <Helmet title="Contact">
-      <CommonSection title="Contact" />
+    <Helmet title="Kontakt">
+      <CommonSection title="Kontakt" />
       <section>
         <Container>
           <Row>
             <Col lg="7" md="7">
-              <h6 className="fw-bold mb-4">Get In Touch</h6>
+              <h6 className="fw-bold mb-4">Kontaktirajte nas</h6>
 
               <Form>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Your Name" type="text" />
+                  <Input placeholder="Vaše Ime" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
                   <Input placeholder="Email" type="email" />
@@ -45,34 +45,34 @@ const Contact = () => {
                 <FormGroup className="contact__form">
                   <textarea
                     rows="5"
-                    placeholder="Message"
+                    placeholder="Vaš tekst"
                     className="textarea"
                   ></textarea>
                 </FormGroup>
 
                 <button className=" contact__btn" type="submit">
-                  Send Message
+                 Pošalji poruku
                 </button>
               </Form>
             </Col>
 
             <Col lg="5" md="5">
               <div className="contact__info">
-                <h6 className="fw-bold">Contact Information</h6>
+                <h6 className="fw-bold">Kontakt Informacije</h6>
                 <p className="section__description mb-0">
-                  123 ZindaBazar, Sylhet, Bangladesh
+                  123 Ulica, Velika Gorica, Hrvatska
                 </p>
                 <div className=" d-flex align-items-center gap-2">
-                  <h6 className="fs-6 mb-0">Phone:</h6>
-                  <p className="section__description mb-0">+88683896366</p>
+                  <h6 className="fs-6 mb-0">Telefon:</h6>
+                  <p className="section__description mb-0">+(385)91-523-4325</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">example@gmail.com</p>
+                  <p className="section__description mb-0">rentakombi@gmail@gmail.com</p>
                 </div>
 
-                <h6 className="fw-bold mt-4">Follow Us</h6>
+                <h6 className="fw-bold mt-4">Pratite nas</h6>
 
                 <div className=" d-flex align-items-center gap-4 mt-3">
                   {socialLinks.map((item, index) => (

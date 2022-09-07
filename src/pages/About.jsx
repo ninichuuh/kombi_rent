@@ -28,7 +28,7 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
+                  Mi smo determinirani pružati pouzdan najam vozila
                 </h2>
 
                 <p className="section__description">
@@ -51,8 +51,8 @@ const About = () => {
                   </span>
 
                   <div>
-                    <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h6 className="section__subtitle">Saznajte Više!</h6>
+                    <h4>+(385)91-533-3243</h4>
                   </div>
                 </div>
               </div>
@@ -67,8 +67,8 @@ const About = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
+              <h6 className="section__subtitle">Znalci</h6>
+              <h2 className="section__title">Naš tim</h2>
             </Col>
             <OurMembers />
           </Row>

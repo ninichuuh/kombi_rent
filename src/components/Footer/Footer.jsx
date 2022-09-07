@@ -7,26 +7,26 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "O nama",
   },
 
   {
     path: "#",
-    display: "Privacy Policy",
+    display: "Politika o Privatnosti",
   },
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Ponuda vozila",
   },
-  {
-    path: "/blogs",
-    display: "Blog",
-  },
+  // {
+  //   path: "/blogs",
+  //   display: "Blog",
+  // },
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "Kontakt",
   },
 ];
 
@@ -43,7 +43,7 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                    Rent-a <br /> Kombi
                   </span>
                 </Link>
               </h1>
@@ -71,20 +71,20 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <h5 className="footer__link-title mb-4">Glavni ured</h5>
+              <p className="office__info">123 Vulica, Velika gorica, Hrvatska</p>
+              <p className="office__info">Phone: +(385)91-438-3251</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: rentakombi@gmail.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Office Time: 08:30 - 20:30</p>
             </div>
           </Col>
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
               <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
+              <p className="section__description">Preplatite se na naš letak</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
@@ -98,7 +98,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                ninichuuh. All rights reserved.
               </p>
             </div>
           </Col>
