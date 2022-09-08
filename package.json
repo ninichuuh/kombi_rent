@@ -1,5 +1,4 @@
-{
-  "name": "kombi_rent",
+{"name": "kombi_rent",
   "version": "1.0.1",
   "private": true,
   "dependencies": {
