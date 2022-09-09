@@ -63,7 +63,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Rent-a <br /> Kombi
+                      Auto <br /> Auron
                     </span>
                   </Link>
                 </h1>
@@ -76,8 +76,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Hrvatska</h4>
-                  <h6>Velika Gorica, 42</h6>
+                  <h4> Grad Zagreb, Hrvatska</h4>
+                  <h5>Žitnjak II. odvojak 14</h5>
                 </div>
               </div>
             </Col>

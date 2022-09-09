@@ -43,7 +43,7 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent-a <br /> Kombi
+                    Auto <br /> Auron
                   </span>
                 </Link>
               </h1>
@@ -58,7 +58,7 @@ const Footer = () => {
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Brzi Linkovi</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -71,11 +71,11 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Glavni ured</h5>
-              <p className="office__info">123 Vulica, Velika gorica, Hrvatska</p>
-              <p className="office__info">Phone: +(385)91-438-3251</p>
+              <h5 className="footer__link-title mb-4">Lokacija</h5>
+              <p className="office__info">Žitnjak II. odvojak 14, Zagreb</p>
+              <p className="office__info">Phone: +(385)99-566-2470</p>
 
-              <p className="office__info">Email: rentakombi@gmail.com</p>
+              <p className="office__info">Email: infoautoauron@gmail.com</p>
 
               <p className="office__info">Office Time: 08:30 - 20:30</p>
             </div>

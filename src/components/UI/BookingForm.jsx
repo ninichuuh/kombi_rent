@@ -16,7 +16,7 @@ const BookingForm = () => {
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="Elektrosnka Pošta" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <input type="number" placeholder="Telefonski Broj" />
