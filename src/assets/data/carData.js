@@ -1,8 +1,8 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/vw.png";
-import img02 from "../all-images/cars-img/peugeot.png";
-import img03 from "../all-images/cars-img/citroen.png";
-import img04 from "../all-images/cars-img/mercedes.png";
+import img01 from "../all-images/cars-img/fiat_ducato.png";
+import img02 from "../all-images/cars-img/renault_master.png";
+import img03 from "../all-images/cars-img/mercedes.png";
+// import img04 from "../all-images/cars-img/mercedes.png";
 // import img05 from "../all-images/cars-img/offer-toyota.png";
 // import img06 from "../all-images/cars-img/mercedes-offer.png";
 // import img07 from "../all-images/cars-img/toyota-offer-2.png";
@@ -11,67 +11,67 @@ import img04 from "../all-images/cars-img/mercedes.png";
 const carData = [
   {
     id: 1,
-    brand: "Volkswagen",
+    brand: "Fiat",
     rating: 12,
-    carName: "Volkswagen Crafter",
+    carName: "Fiat Ducato",
     imgUrl: img01,
-    model: "Crafter",
-    price: 300,
+    model: "Ducato",
+    price: "300(39.82)",
     speed: "120kmh",
     gps: "GPS Navigation",
     seatType: "Tempomat",
-    automatic: "Automatic",
+    automatic: "Klima",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 2,
-    brand: "Peugeot",
+    brand: "Renault",
     rating: 12,
-    carName: "Peugeot Boxer",
+    carName: "Renault Master",
     imgUrl: img02,
-    model: "Boxer",
-    price: 250,
-    speed: "120kmh",
+    model: "Master",
+    price: "600(79.63)",
+    speed: "130kmh",
     gps: "GPS Navigation",
     seatType: "Tempomat",
-    automatic: "Automatic",
+    automatic: "Klima",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 3,
-    brand: "Citroen",
+    brand: "Mercedes",
     rating: 132,
-    carName: "Citroen Jumper",
+    carName: "Mercedes Sprinter Maxi",
     imgUrl: img03,
-    model: "Jumper",
-    price: 350,
-    speed: "100kmh",
+    model: "Sprinter Maxi",
+    price: "600(79.63)",
+    speed: "150kmh",
     gps: "GPS Navigation",
     seatType: "Tempomat",
-    automatic: "Automatic",
+    automatic: "Klima",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
-  {
-    id: 4,
-    brand: "Mercedes",
-    rating: 102,
-    carName: "Mercedes Splintter",
-    imgUrl: img04,
-    model: "Splintter",
-    price: 750,
-    speed: "150kmh",
-    gps: "GPS Navigation",
-    seatType: "Tempomat",
-    automatic: "Automatic",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+  // {
+  //   id: 4,
+  //   brand: "Mercedes",
+  //   rating: 102,
+  //   carName: "Mercedes Splintter",
+  //   imgUrl: img04,
+  //   model: "Splintter",
+  //   price: 750,
+  //   speed: "150kmh",
+  //   gps: "GPS Navigation",
+  //   seatType: "Tempomat",
+  //   automatic: "Klima",
+  //   description:
+  //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  // },
 
   // {
   //   id: 5,
@@ -84,7 +84,7 @@ const carData = [
   //   speed: "20kmpl",
   //   gps: "GPS Navigation",
   //   seatType: "Heated seats",
-  //   automatic: "Automatic",
+  //   automatic: "Klima",
   //   description:
   //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   // },
@@ -100,7 +100,7 @@ const carData = [
   //   speed: "20kmpl",
   //   gps: "GPS Navigation",
   //   seatType: "Heated seats",
-  //   automatic: "Automatic",
+  //   automatic: "Klima",
   //   description:
   //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   // },
@@ -116,7 +116,7 @@ const carData = [
   //   speed: "20kmpl",
   //   gps: "GPS Navigation",
   //   seatType: "Heated seats",
-  //   automatic: "Automatic",
+  //   automatic: "Klima",
   //   description:
   //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   // },
@@ -132,7 +132,7 @@ const carData = [
   //   speed: "20kmpl",
   //   gps: "GPS Navigation",
   //   seatType: "Heated seats",
-  //   automatic: "Automatic",
+  //   automatic: "Klima",
   //   description:
   //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   // },

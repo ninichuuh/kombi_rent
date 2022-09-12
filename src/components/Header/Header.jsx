@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
+import logo from "../../assets/all-images/logo.png"
 
 const navLinks = [
   {
@@ -43,7 +44,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Trebate pomoć?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +(385)91-555-0149
+                  <i class="ri-phone-fill"></i><a href="tel:+385995662470">+(385)99-566-2470</a>
                 </span>
               </div>
             </Col>
@@ -61,10 +62,7 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
-                    <span>
-                      Auto <br /> Auron
-                    </span>
+                    <img src={logo} alt="logo"/>
                   </Link>
                 </h1>
               </div>
@@ -88,7 +86,7 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Ponedjeljak do Subota</h4>
+                  <h4>Ponedjeljak-Subota</h4>
                   <h6>08:30 - 20:30</h6>
                 </div>
               </div>

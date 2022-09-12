@@ -23,7 +23,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">Najam gospodarskih vozila</h4>
-            <h1 className="text-light mb-4">Već od 250kn</h1>
+            <h1 className="text-light mb-4">Već od 300kn(39,82eur) po danu</h1>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rezervirajte odmah</Link>
@@ -36,7 +36,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">Najam gospodarskih vozila</h4>
-            <h1 className="text-light mb-4">Već od 250kn po danu</h1>
+            <h1 className="text-light mb-4">Već od 300kn(39,82eur) po danu</h1>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rezervirajte odmah</Link>
@@ -49,7 +49,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">Najam gospodarskih vozila</h4>
-            <h1 className="text-light mb-4">Već od 250kn po danu</h1>
+            <h1 className="text-light mb-4">Već od 300kn(39,82eur) po danu</h1>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rezervirajte odmah</Link>

@@ -4,12 +4,12 @@ import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/ava-1.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
-import ava03 from "../../assets/all-images/ava-3.jpg";
+// import ava03 from "../../assets/all-images/ava-3.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Ivan Perić",
+    experience: "5 godina iskustva",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -18,8 +18,8 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "David Lisa",
-    experience: "5 years of experience",
+    name: "Mara Lisa",
+    experience: "5 godina iskustva",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -27,32 +27,32 @@ const OUR__MEMBERS = [
     imgUrl: ava02,
   },
 
-  {
-    name: "Hilton King",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava03,
-  },
+  // {
+  //   name: "Hilton King",
+  //   experience: "5 years of experience",
+  //   fbUrl: "#",
+  //   instUrl: "#",
+  //   twitUrl: "#",
+  //   linkedinUrl: "#",
+  //   imgUrl: ava03,
+  // },
 
-  {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava01,
-  },
+  // {
+  //   name: "Jhon Doe",
+  //   experience: "5 years of experience",
+  //   fbUrl: "#",
+  //   instUrl: "#",
+  //   twitUrl: "#",
+  //   linkedinUrl: "#",
+  //   imgUrl: ava01,
+  // },
 ];
 
 const OurMembers = () => {
   return (
     <>
       {OUR__MEMBERS.map((item, index) => (
-        <Col lg="3" md="3" sm="4" xs="6" key={index} className="mb-4">
+        <Col lg="6" md="6" sm="6" xs="6" key={index} className="mb-4">
           <div className="single__member">
             <div className="single__member-img">
               <img src={item.imgUrl} alt="" className="w-100" />

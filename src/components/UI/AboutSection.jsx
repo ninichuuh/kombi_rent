@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
-import aboutImg from "../../assets/all-images/cars-img/bmw-offer.png";
+import aboutImg from "../../assets/all-images/cars-img/About_img.png";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -26,21 +26,21 @@ const AboutSection = ({ aboutClass }) => {
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Stručno održavana vozila.
+                  <i class="ri-checkbox-circle-line"></i> Stručno održavana vozila
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Vozila vrhunske kvalitete.
+                  <i class="ri-checkbox-circle-line"></i> Vozila vrhunske kvalitete
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Usluga posvećena Vama.
+                  <i class="ri-checkbox-circle-line"></i> Usluga posvećena Vama
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Najniže cijene.
+                  <i class="ri-checkbox-circle-line"></i> Najniže cijene
                 </p>
               </div>
             </div>

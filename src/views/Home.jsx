@@ -45,7 +45,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Naša ponuda</h6>
-              <h2 className="section__title">Pouzdano, blizu i fleksibilno</h2>
+              <h2 className="section__title">Pouzdano, sigurno i fleksibilno</h2>
             </Col>
 
             <ServicesList />

@@ -31,7 +31,7 @@ const CarDetails = () => {
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
-                    ${singleCarItem.price}.00 / Day
+                    {singleCarItem.price} kn(eur)/ Dan
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2">
@@ -42,7 +42,7 @@ const CarDetails = () => {
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
                     </span>
-                    ({singleCarItem.rating} ratings)
+                    ({singleCarItem.rating} ocjena)
                   </span>
                 </div>
 
@@ -109,7 +109,7 @@ const CarDetails = () => {
 
             <Col  className="mt-5">
               <div className="booking-info mt-5">
-                <h5 className="mb-4 fw-bold ">Booking Information</h5>
+                <h5 className="mb-4 fw-bold ">Informacije o rezervaciji</h5>
                 <BookingForm />
                
        

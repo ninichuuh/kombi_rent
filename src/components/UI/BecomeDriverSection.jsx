@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 
-import driverImg from "../../assets/all-images/toyota-offer-2.png";
+import driverImg from "../../assets/all-images/drive_offer.png";
 
 const BecomeDriverSection = () => {
   return (
@@ -15,7 +15,7 @@ const BecomeDriverSection = () => {
 
           <Col lg="6" md="6" sm="12">
             <h2 className="section__title become__driver-title">
-              Žeeliš se pridružiti našem brzo-rastućem timu? <br/> Javi nam se!
+              Želiš se pridružiti našem brzorastućem timu? <br/> Javi nam se!
             </h2>
 
             <button className="btn become__driver-btn mt-4">

@@ -1,13 +1,14 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import CarListing from "../pages/CarListing";
-import CarDetails from "../pages/CarDetails";
-import Blog from "../pages/Blog";
-import BlogDetails from "../pages/BlogDetails";
-import NotFound from "../pages/NotFound";
-import Contact from "../pages/Contact";
+import Home from "../views/Home";
+import About from "../views/About";
+import CarListing from "../views/CarListing";
+import CarDetails from "../views/CarDetails";
+import Blog from "../views/Blog";
+import BlogDetails from "../views/BlogDetails";
+import NotFound from "../views/NotFound";
+import Contact from "../views/Contact";
+import PrivacyPolicy from "../views/PrivacyPolicy";
 
 const Routers = () => {
   return (
@@ -20,6 +21,7 @@ const Routers = () => {
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

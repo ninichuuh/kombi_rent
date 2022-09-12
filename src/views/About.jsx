@@ -12,8 +12,8 @@ import "../styles/about.css";
 
 const About = () => {
   return (
-    <Helmet title="About">
-      <CommonSection title="About Us" />
+    <Helmet title="O nama">
+      <CommonSection title="O nama" />
       <AboutSection aboutClass="aboutPage" />
 
       <section className="about__page-section">
@@ -32,12 +32,10 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Auto-Auron predan je osiguravanju najviše razine usluge za
+                  Auto-Auron predan je pružanju najviše razine usluge za
                   naše klijente, imajući na umu njihovu sigurnost. Naš moto:
                   dosljednost, čistoća i briga ostaju ne samo naše vrijednosti,
-                  već i obećanje našim kupcima. Auto-Auron Vam uvijek čuva leđa
-                  na svakom koraku putovanja kako bi zajedno stvarali nove
-                  uspomene ove godine na siguran način.
+                  već i obećanje našim kupcima. 
                 </p>
 
                 <p className="section__description">
@@ -52,7 +50,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Saznajte Više!</h6>
-                    <h4>+(385)91-555-0149</h4>
+                    <h4><a href="tel:+385995662470">+(385)99-566-2470</a></h4>
                   </div>
                 </div>
               </div>
