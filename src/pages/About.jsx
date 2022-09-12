@@ -28,21 +28,21 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  Mi smo determinirani pružati pouzdan najam vozila
+                  Naš cilj? Pružiti pouzdan najam vozila
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  Auto-Auron predan je osiguravanju najviše razine usluge za
+                  naše klijente, imajući na umu njihovu sigurnost. Naš moto:
+                  dosljednost, čistoća i briga ostaju ne samo naše vrijednosti,
+                  već i obećanje našim kupcima. Auto-Auron Vam uvijek čuva leđa
+                  na svakom koraku putovanja kako bi zajedno stvarali nove
+                  uspomene ove godine na siguran način.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  Auto-Auron postavlja standarde i značajke industrije. Poboljšali smo tehnike koje se koriste za čišćenje naših vozila nakon svakog najma kako bismo održali najviše standarde čistoće. Beskontaktni najam
+                  je tu da ostane, a nudi se čak i najam 24 sata dnevno.Iznajmite sada i platite kasnije za fleksibilno plaćanje najma. Dosljedno i redovito preventivno održavanje kako bi osigurali kvalitetu vozila i bezbrižnost na cesti za Vas. Fleksibilna politika otkazivanja
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -52,7 +52,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Saznajte Više!</h6>
-                    <h4>+(385)91-533-3243</h4>
+                    <h4>+(385)91-555-0149</h4>
                   </div>
                 </div>
               </div>
