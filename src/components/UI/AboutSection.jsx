@@ -26,21 +26,21 @@ const AboutSection = ({ aboutClass }) => {
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Stručno održavana vozila
+                  <i className="ri-checkbox-circle-line"></i> Stručno održavana vozila
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Vozila vrhunske kvalitete
+                  <i className="ri-checkbox-circle-line"></i> Vozila vrhunske kvalitete
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Usluga posvećena Vama
+                  <i className="ri-checkbox-circle-line"></i> Usluga posvećena Vama
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Najniže cijene
+                  <i className="ri-checkbox-circle-line"></i> Najniže cijene
                 </p>
               </div>
             </div>

@@ -11,7 +11,7 @@ const quickLinks = [
   },
 
   {
-    path: "#",
+    path: "/privacy",
     display: "Politika o Privatnosti",
   },
 
@@ -82,7 +82,7 @@ const Footer = () => {
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
-                  <i class="ri-send-plane-line"></i>
+                  <i className="ri-send-plane-line"></i>
                 </span>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
+                <i className="ri-copyright-line"></i>Copyright {year}, Developed by
                 ninichuuh. All rights reserved.
               </p>
             </div>

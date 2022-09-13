@@ -15,11 +15,11 @@ export default function Errorpage() {
             alt="404"
           />
           <span>404 error</span>
-          <p class="p-a">
+          <p className="p-a">
             Seems like the webpage you have looked for has a problem{" "}
           </p>
-          <p class="p-b">?My developer is at fault, maybe buy him a Coffee</p>
-          <a href="/" class="back" onClick={navigateHome}>
+          <p className="p-b">?My developer is at fault, maybe buy him a Coffee</p>
+          <a href="/" className="back" onClick={navigateHome}>
             Return Home
           </a>
         </div>

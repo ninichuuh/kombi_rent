@@ -44,7 +44,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Trebate pomoć?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i><a href="tel:+385995662470">+(385)99-566-2470</a>
+                  <i className="ri-phone-fill"></i><a href="tel:+385995662470">+(385)99-566-2470</a>
                 </span>
               </div>
             </Col>
@@ -71,7 +71,7 @@ const Header = () => {
             <Col lg="3" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
                 <span>
-                  <i class="ri-earth-line"></i>
+                  <i className="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
                   <h4> Grad Zagreb, Hrvatska</h4>
@@ -83,7 +83,7 @@ const Header = () => {
             <Col lg="3" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
                 <span>
-                  <i class="ri-time-line"></i>
+                  <i className="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
                   <h4>Ponedjeljak-Subota</h4>
@@ -100,7 +100,7 @@ const Header = () => {
             >
               <button className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Kontaktirajte nas
+                  <i className="ri-phone-line"></i> Kontaktirajte nas
                 </Link>
               </button>
             </Col>
@@ -114,7 +114,7 @@ const Header = () => {
         <Container>
           <div className="navigation__wrapper d-flex align-items-center justify-content-between">
             <span className="mobile__menu">
-              <i class="ri-menu-line" onClick={toggleMenu}></i>
+              <i className="ri-menu-line" onClick={toggleMenu}></i>
             </span>
 
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
@@ -137,7 +137,7 @@ const Header = () => {
               <div className="search__box">
                 <input type="text" placeholder="Pretraži" />
                 <span>
-                  <i class="ri-search-line"></i>
+                  <i className="ri-search-line"></i>
                 </span>
               </div>
             </div>
