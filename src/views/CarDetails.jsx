@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Lazy, Autoplay } from "swiper";
-import "../styles/car-details.css"
+import "../styles/car-details.css";
 import "swiper/css";
 import "swiper/css/lazy";
 import {
@@ -38,7 +38,7 @@ const CarDetails = () => {
     window.scrollTo(0, 0);
   }, [singleCarItem]);
   console.log(singleCarItem.brand);
-  
+
   const Benz = imgBenz.map((src, index) => (
     <SwiperSlide>
       <img src={src} key={index} alt="" />
@@ -51,9 +51,18 @@ const CarDetails = () => {
     </SwiperSlide>
   ));
 
-  const Renault = <SwiperSlide><img src={renault} alt="" /></SwiperSlide>;
-  const images = singleCarItem.brand === 'Mercedes' ? Benz : singleCarItem.brand === 'Fiat'  ? Fiat : Renault
-  
+  const Renault = (
+    <SwiperSlide>
+      <img src={renault} alt="" />
+    </SwiperSlide>
+  );
+  const images =
+    singleCarItem.brand === "Mercedes"
+      ? Benz
+      : singleCarItem.brand === "Fiat"
+      ? Fiat
+      : Renault;
+
   return (
     <Helmet title={singleCarItem.carName}>
       <section>
@@ -96,7 +105,13 @@ const CarDetails = () => {
                 </div>
 
                 <p className="section__description">
-                  {singleCarItem.description}
+                  {singleCarItem.description} <br />
+                  {singleCarItem.year}<br />
+                  {singleCarItem.lenght}<br />
+                  {singleCarItem.height}<br/>
+                  {singleCarItem.radio}<br />
+                  {singleCarItem.dodatno}<br />
+
                 </p>
 
                 <div

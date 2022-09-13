@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Lokacija</h5>
               <p className="office__info">Žitnjak II. odvojak 14, Zagreb</p>
-              <p className="office__info">Phone: +(385)99-566-2470</p>
+              <p className="office__info">Phone: <a href="tel:+385995662470">+(385)99-566-2470</a></p>
 
               <p className="office__info">Email: infoautoauron@gmail.com</p>
 

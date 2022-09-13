@@ -11,16 +11,17 @@ const carData = [
     carName: "Fiat Ducato",
     imgUrl: img01,
     model: "Ducato",
-    price: "300(39.82)",
-    speed: "120kmh",
+    price: "600(79.63)",
+    speed: "140kmh",
     gps: "GPS Navigation",
     seatType: "Tempomat",
     automatic: "Klima",
-    description:
-      `Fiat Ducato 2.3 Multijet 150` +
-      "\n"`
-    Godina Proizvodnje: 2018 \n 
-    Dužina Tovarnog Prostora: 4m \n USB Radio \n Parking Senzori i Kamera za vožnju unatrag`,
+    description: `Fiat Ducato 2.3 Multijet 150`,
+    year: "Godina Proizvodnje: 2018",
+    lenght: "Dužina Tovarnog Prostora: 4m",
+    height: "Visina Tovarnog Prostora: 1.85m",
+    radio: "USB Radio",
+    dodatno: "Parking Senzori i Kamera za vožnju unatrag",
   },
 
   {
@@ -30,7 +31,7 @@ const carData = [
     carName: "Renault Master",
     imgUrl: img02,
     model: "Master",
-    price: "600(79.63)",
+    price: "500(66.44)",
     speed: "130kmh",
     gps: "GPS Navigation",
     seatType: "Tempomat",
@@ -46,13 +47,17 @@ const carData = [
     carName: "Mercedes Sprinter Maxi",
     imgUrl: img03,
     model: "Sprinter Maxi",
-    price: "600(79.63)",
+    price: "500(66.44)",
     speed: "150kmh",
-    gps: "GPS Navigation",
-    seatType: "Tempomat",
+    gps: "Centralno Zaključavanje",
+    seatType: "Kuka po potrebi",
     automatic: "Klima",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+    description: `Mercedes Sprinter Maxi`,
+    year: "Godina Proizvodnje: 2014",
+    lenght: "Dužina Tovarnog Prostora: 4.30m",
+    height: "Visina Tovarnog Prostora: 1.90m",
+    radio: "Radio",
+    dodatno: "Centralno Zaključavanje",
   },
 
   // {

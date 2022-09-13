@@ -63,7 +63,7 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Telefon:</h6>
-                  <p className="section__description mb-0">+(385)99-566-2470</p>
+                  <p className="section__description mb-0"><a href="tel:+385995662470">+(385)99-566-2470</a></p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
