@@ -10,7 +10,7 @@ import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
 import CarItem from "../components/UI/CarItem";
 // import BecomeDriverSection from "../components/UI/BecomeDriverSection";
-import Testimonial from "../components/UI/Testimonial";
+// import Testimonial from "../components/UI/Testimonial";
 
 // import BlogList from "../components/UI/BlogList";
 
@@ -39,20 +39,7 @@ const Home = () => {
       </section>
       {/* =========== about section ================ */}
       <AboutSection />
-      {/* ========== services section ============ */}
-      <section>
-        <Container>
-          <Row>
-            <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Naša ponuda</h6>
-              <h2 className="section__title">Pouzdano, sigurno i fleksibilno</h2>
-            </Col>
-
-            <ServicesList />
-          </Row>
-        </Container>
-      </section>
-      {/* =========== car offer section ============= */}
+       {/* =========== car offer section ============= */}
       <section>
         <Container>
           <Row>
@@ -67,11 +54,26 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      {/* ========== services section ============ */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">Naša ponuda</h6>
+              <h2 className="section__title">Pouzdano, sigurno i fleksibilno</h2>
+            </Col>
+
+            <ServicesList />
+          </Row>
+        </Container>
+      </section>
+     
+     
       {/* =========== become a driver section ============ */}
       {/* <BecomeDriverSection /> */}
 
       {/* =========== testimonial section =========== */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
@@ -82,7 +84,7 @@ const Home = () => {
             <Testimonial />
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* =============== blog section =========== */}
       {/* <section>

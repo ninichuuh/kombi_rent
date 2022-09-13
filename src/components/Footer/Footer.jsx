@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i className="ri-copyright-line"></i>Copyright {year}, Developed by
-                ninichuuh. All rights reserved.
+                MiInI. All rights reserved.
               </p>
             </div>
           </Col>

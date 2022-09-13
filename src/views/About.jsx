@@ -5,9 +5,9 @@ import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
-
+import Testimonial from "../components/UI/Testimonial"
 import driveImg from "../assets/all-images/drive.jpg";
-import OurMembers from "../components/UI/OurMembers";
+// import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
 const About = () => {
@@ -58,10 +58,22 @@ const About = () => {
           </Row>
         </Container>
       </section>
-
       <BecomeDriverSection />
-
       <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-4 text-center">
+              <h6 className="section__subtitle">O nama</h6>
+              <h2 className="section__title">Od Vas</h2>
+            </Col>
+
+            <Testimonial />
+          </Row>
+        </Container>
+      </section>
+      
+
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -71,7 +83,7 @@ const About = () => {
             <OurMembers />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };

@@ -36,8 +36,10 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Tempomat",
     automatic: "Klima",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+    description: `Fiat Ducato 2.3 Multijet 150`,
+    lenght: "Dužina Tovarnog Prostora: 3.50m",
+    height: "Visina Tovarnog Prostora: 1.80m",
+    dodatno: "Centralno zaključavanje",
   },
 
   {
