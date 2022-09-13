@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import carData from "../assets/data/carData";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
@@ -7,9 +6,28 @@ import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Lazy, Autoplay } from "swiper";
+import "../styles/car-details.css"
+import "swiper/css";
+import "swiper/css/lazy";
+import {
+  benz1,
+  benz2,
+  benz3,
+  fiat1,
+  fiat2,
+  fiat3,
+  fiat4,
+  fiat5,
+  fiat6,
+  fiat7,
+  fiat8,
+  fiat9,
+  renault,
+} from "../assets/all-images/gallery-img/images";
+
 // import PaymentMethod from "../components/UI/PaymentMethod";
-import { benz1, benz2, benz3 } from "../assets/all-images/gallery-img/images";
 const imgBenz = [benz1, benz2, benz3];
+const imgFiat = [fiat1, fiat2, fiat3, fiat4, fiat5, fiat6, fiat7, fiat8, fiat9];
 
 const CarDetails = () => {
   const { slug } = useParams();
@@ -20,32 +38,40 @@ const CarDetails = () => {
     window.scrollTo(0, 0);
   }, [singleCarItem]);
   console.log(singleCarItem.brand);
+  
+  const Benz = imgBenz.map((src, index) => (
+    <SwiperSlide>
+      <img src={src} key={index} alt="" />
+    </SwiperSlide>
+  ));
 
+  const Fiat = imgFiat.map((src, index) => (
+    <SwiperSlide>
+      <img src={src} key={index} alt="" />
+    </SwiperSlide>
+  ));
+
+  const Renault = <SwiperSlide><img src={renault} alt="" /></SwiperSlide>;
+  const images = singleCarItem.brand === 'Mercedes' ? Benz : singleCarItem.brand === 'Fiat'  ? Fiat : Renault
+  
   return (
     <Helmet title={singleCarItem.carName}>
       <section>
         <Container>
           <Row>
             <Col lg="6">
-              <div>
               <Swiper
-                className="mySwiper swiper-h"
-                spaceBetween={10}
+                spaceBetween={50}
                 lazy={true}
                 loop={true}
                 autoplay={{
                   delay: 2500,
-                  disableOnInteraction: true,
+                  disableOnInteraction: false,
                 }}
-                modules={[Autoplay, Lazy]}
+                modules={[Lazy, Autoplay]}
               >
-                .map((src, index) => (
-                  <SwiperSlide>
-                    <img  src={benz1} key={index} alt="" />
-                  </SwiperSlide>
-                ))}
+                {images}
               </Swiper>
-              </div>
             </Col>
 
             <Col lg="6">

@@ -3,7 +3,6 @@ import img01 from "../all-images/cars-img/fiat_ducato.png";
 import img02 from "../all-images/cars-img/renault_master.png";
 import img03 from "../all-images/cars-img/mercedes.png";
 
-
 const carData = [
   {
     id: 1,
@@ -18,7 +17,10 @@ const carData = [
     seatType: "Tempomat",
     automatic: "Klima",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      `Fiat Ducato 2.3 Multijet 150` +
+      "\n"`
+    Godina Proizvodnje: 2018 \n 
+    Dužina Tovarnog Prostora: 4m \n USB Radio \n Parking Senzori i Kamera za vožnju unatrag`,
   },
 
   {
