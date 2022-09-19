@@ -18,7 +18,6 @@ const Routers = () => {
       <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
-
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

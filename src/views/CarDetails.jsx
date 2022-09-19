@@ -25,7 +25,6 @@ import {
   renault,
 } from "../assets/all-images/gallery-img/images";
 
-// import PaymentMethod from "../components/UI/PaymentMethod";
 const imgBenz = [benz1, benz2, benz3];
 const imgFiat = [fiat1, fiat2, fiat3, fiat4, fiat5, fiat6, fiat7, fiat8, fiat9];
 
@@ -37,7 +36,6 @@ const CarDetails = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [singleCarItem]);
-  console.log(singleCarItem.brand);
 
   const Benz = imgBenz.map((src, index) => (
     <SwiperSlide>
@@ -106,12 +104,16 @@ const CarDetails = () => {
 
                 <p className="section__description">
                   {singleCarItem.description} <br />
-                  {singleCarItem.year}<br />
-                  {singleCarItem.lenght}<br />
-                  {singleCarItem.height}<br/>
-                  {singleCarItem.radio}<br />
-                  {singleCarItem.dodatno}<br />
-
+                  {singleCarItem.year}
+                  <br />
+                  {singleCarItem.lenght}
+                  <br />
+                  {singleCarItem.height}
+                  <br />
+                  {singleCarItem.radio}
+                  <br />
+                  {singleCarItem.dodatno}
+                  <br />
                 </p>
 
                 <div
@@ -180,13 +182,6 @@ const CarDetails = () => {
                 <FormBooking />
               </div>
             </Col>
-
-            {/* <Col lg="5" className="mt-5">
-              <div className="payment__info mt-5">
-                <h5 className="mb-4 fw-bold ">Payment Information</h5>
-                <PaymentMethod />
-              </div>
-            </Col> */}
           </Row>
         </Container>
       </section>

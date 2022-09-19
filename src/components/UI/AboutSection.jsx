@@ -20,23 +20,31 @@ const AboutSection = ({ aboutClass }) => {
               <h4 className="section__subtitle">O nama</h4>
               <h2 className="section__title">Ukratko o nama Auto-Auron</h2>
               <p className="section__description">
-              Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila. Ako trebate unajmiti kombi, s ponosom nudimo vozila i usluge svjetske klase po pristupačnoj cijeni. Usredotočeni smo na to da vam pomognemo da stignete tamo gdje trebate biti, stoga uživajte u pogodnostima koje pružaju naša vozila..
-               {/* Naša misija je učiniti vaše iskustvo najma gospodarskih vozila brzim, lako i pristupačno. Sva naša vozila su stručno održavana. Kada unajmite kombi od Auto-Aurona, sigurni ste da da dobivate vozila vrhunske kvalitete te uslugu posvećenu Vama po najnižim mogućim cijenama. Jednostavno smo predani zadovoljstvu kupaca. Zašto plaćati više kada možete dobiti najbolje za manje? */}
+                Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih
+                vozila za korisnike diljem zemlje. Nudimo kratkoročne i
+                dugoročne najmove gospodarskih vozila. Ako trebate unajmiti
+                kombi, s ponosom nudimo vozila i usluge svjetske klase po
+                pristupačnoj cijeni. Usredotočeni smo na to da vam pomognemo da
+                stignete tamo gdje trebate biti, stoga uživajte u pogodnostima
+                koje pružaju naša vozila.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Stručno održavana vozila
+                  <i className="ri-checkbox-circle-line"></i> Stručno održavana
+                  vozila
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Vozila vrhunske kvalitete
+                  <i className="ri-checkbox-circle-line"></i> Vozila vrhunske
+                  kvalitete
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Usluga posvećena Vama
+                  <i className="ri-checkbox-circle-line"></i> Usluga posvećena
+                  Vama
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">

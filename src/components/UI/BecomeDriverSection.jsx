@@ -1,10 +1,13 @@
 import React from "react";
 import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
-
+import { useNavigate } from "react-router-dom";
 import driverImg from "../../assets/all-images/drive_offer.png";
-
 const BecomeDriverSection = () => {
+  const navigate = useNavigate();
+  const navigateContact = () => {
+    navigate("/contact", { replace: false });
+  };
   return (
     <section className="become__driver">
       <Container>
@@ -18,7 +21,7 @@ const BecomeDriverSection = () => {
               Želiš se pridružiti našem brzorastućem timu? <br/> Javi nam se!
             </h2>
 
-            <button className="btn become__driver-btn mt-4">
+            <button className="btn become__driver-btn mt-4" onClick={navigateContact}>
               Prijava
             </button>
           </Col>

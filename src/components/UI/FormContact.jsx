@@ -17,14 +17,13 @@ const FormContact = () => {
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
       (result) => {
-        console.log(result.text);
         navigateHome();
         alert(
           "Zahvaljujemo na vašoj poruci! Javiti ćemo Vam se u najkraćem mogućem roku"
         );
       },
       (error) => {
-        console.log(error.text);
+      
         alert("FAILED...", error);
       }
     );

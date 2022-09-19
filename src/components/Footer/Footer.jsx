@@ -19,10 +19,8 @@ const quickLinks = [
     path: "/cars",
     display: "Ponuda vozila",
   },
-  // {
-  //   path: "/blogs",
-  //   display: "Blog",
-  // },
+   
+  
 
   {
     path: "/contact",

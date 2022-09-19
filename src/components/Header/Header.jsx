@@ -19,10 +19,7 @@ const navLinks = [
     display: "Vozila",
   },
 
-  // {
-  //   path: "/blogs",
-  //   display: "Blog",
-  // },
+
   {
     path: "/contact",
     display: "Kontakt",
@@ -134,12 +131,7 @@ const Header = () => {
             </div>
 
             <div className="nav__right">
-              <div className="search__box">
-                <input type="text" placeholder="Pretraži" />
-                <span>
-                  <i className="ri-search-line"></i>
-                </span>
-              </div>
+             
             </div>
           </div>
         </Container>

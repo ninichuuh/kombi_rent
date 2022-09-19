@@ -24,12 +24,12 @@ const BookingForm = () => {
         );
       },
       (error) => {
-        console.log(error.text);
+    
         alert("FAILED...", error);
       }
     );
   };
-  // const handleSucces () => {}
+ 
   return (
     <form ref={form} onSubmit={sendEmail}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
