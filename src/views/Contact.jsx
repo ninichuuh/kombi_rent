@@ -1,8 +1,7 @@
-import React from "react";
-import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
-
+import FormContact from "../components/UI/FormContact";
 import "../styles/contact.css";
 
 // const socialLinks = [
@@ -23,7 +22,6 @@ import "../styles/contact.css";
 //     icon: "ri-twitter-line",
 //   },
 // ];
-
 const Contact = () => {
   return (
     <Helmet title="Kontakt">
@@ -32,27 +30,8 @@ const Contact = () => {
         <Container>
           <Row>
             <Col lg="7" md="7">
-              <h6 className="fw-bold mb-4">Kontaktirajte nas</h6>
-
-              <Form>
-                <FormGroup className="contact__form">
-                  <Input placeholder="Vaše Ime" type="text" />
-                </FormGroup>
-                <FormGroup className="contact__form">
-                  <Input placeholder="Email" type="email" />
-                </FormGroup>
-                <FormGroup className="contact__form">
-                  <textarea
-                    rows="5"
-                    placeholder="Vaš tekst"
-                    className="textarea"
-                  ></textarea>
-                </FormGroup>
-
-                <button className=" contact__btn" type="submit">
-                 Pošalji poruku
-                </button>
-              </Form>
+              <h6 className="fw-bold mb-4">Pošaljite nam poruku </h6>
+              <FormContact />
             </Col>
 
             <Col lg="5" md="5">
@@ -63,12 +42,16 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Telefon:</h6>
-                  <p className="section__description mb-0"><a href="tel:+385995662470">+(385)99-566-2470</a></p>
+                  <p className="section__description mb-0">
+                    <a href="tel:+385995662470">+(385)99-566-2470</a>
+                  </p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">infoautoauron@gmail.com</p>
+                  <p className="section__description mb-0">
+                    infoautoauron@gmail.com
+                  </p>
                 </div>
 
                 {/* <h6 className="fw-bold mt-4">Pratite nas</h6>

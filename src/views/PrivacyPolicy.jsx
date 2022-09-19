@@ -4,9 +4,9 @@ import Helmet from "../components/Helmet/Helmet";
 const PrivacyPolicy = () => {
   return (
     <Helmet title="Politika Privatnosti">
-      <div>
+      <div className="mx-5">
         <h1>IZJAVA O PRIVATNOSTI</h1>
-        <p></p>
+        
         <h6>
           Korištenjem Internet stranice Auto-Auron j.d.o.o., odnosno bilo koje
           usluge koja je navedena u istima, u cijelosti prihvaćate Uvjete

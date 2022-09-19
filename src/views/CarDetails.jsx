@@ -3,7 +3,7 @@ import carData from "../assets/data/carData";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
-import BookingForm from "../components/UI/BookingForm";
+import FormBooking from "../components/UI/FormBooking";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Lazy, Autoplay } from "swiper";
 import "../styles/car-details.css";
@@ -177,7 +177,7 @@ const CarDetails = () => {
             <Col className="mt-5">
               <div className="booking-info mt-5">
                 <h5 className="mb-4 fw-bold ">Informacije o rezervaciji</h5>
-                <BookingForm />
+                <FormBooking />
               </div>
             </Col>
 

@@ -36,7 +36,7 @@ const serviceData = [
 
   {
     id: 6,
-    title: "Transfer sa aerodroma",
+    title: "Transfer s aerodroma",
     icon: "ri-flight-takeoff-line",
     desc: "Letite u/iz Zagreba i imate puno stvari? Rado ćemo Vas dočekati!",
   },
