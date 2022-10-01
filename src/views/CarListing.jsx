@@ -1,13 +1,47 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "reactstrap";
-import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
 import carData from "../assets/data/carData";
 
 const CarListing = () => {
   return (
-    <Helmet title="Cars">
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Vozila | Najam Kombija | Rent-a Kombi</title>
+        <link rel="canonical" href="https://auto-auron.hr/cars" />
+        <meta
+          name="description"
+          content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
+        />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="Naša vozila | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="twitter:description"
+          content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
+        />
+
+        <meta
+          name="og:title"
+          content="Naša vozila | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="og:description"
+          content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
+        />
+        <meta name="og:url" content="https://auto-auron.hr/cars" />
+        <meta name="og:type" content="website" />
+        <meta name="og:locale" content="hr_HR" />
+      </Helmet>
       <CommonSection title="Ponuda vozila" />
 
       <section>
@@ -33,7 +67,7 @@ const CarListing = () => {
           </Row>
         </Container>
       </section>
-    </Helmet>
+    </>
   );
 };
 

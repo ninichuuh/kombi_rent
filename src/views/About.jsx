@@ -1,17 +1,48 @@
 import React from "react";
 
 import CommonSection from "../components/UI/CommonSection";
-import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 import driveImg from "../assets/all-images/drive.jpg";
 import "../styles/about.css";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
-    <Helmet title="O nama">
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>O nama | Rent a kombi | Najam Kombija</title>
+        <link rel="canonical" href="https://auto-auron.hr/about" />
+        <meta
+          name="description"
+          content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
+        />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="O nama | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="twitter:description"
+          content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
+        />
+
+        <meta name="og:title" content="O nama | Najam Kombija | Rent-a-Kombi" />
+        <meta
+          name="og:description"
+          content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
+        />
+        <meta name="og:url" content="https://auto-auron.hr/about" />
+        <meta name="og:type" content="website" />
+        <meta name="og:locale" content="hr_HR" />
+      </Helmet>
       <CommonSection title="O nama" />
       <AboutSection aboutClass="aboutPage" />
 
@@ -78,7 +109,7 @@ const About = () => {
           </Row>
         </Container>
       </section>
-    </Helmet>
+    </>
   );
 };
 

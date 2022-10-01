@@ -1,12 +1,24 @@
 import React from "react";
-import Helmet from "../components/Helmet/Helmet";
+import { Helmet } from "react-helmet";
 
 const PrivacyPolicy = () => {
   return (
-    <Helmet title="Politika Privatnosti">
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Politika Privatnosti</title>
+        <link rel="canonical" href="http://auto-auron.hr/privacy" />
+        <meta
+          name="description"
+          content="Politika privatnosti | Najam Kombija | Rent-a Kombi"
+        />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+      </Helmet>
       <div className="mx-5">
         <h1>IZJAVA O PRIVATNOSTI</h1>
-        
         <h6>
           Korištenjem Internet stranice Auto-Auron j.d.o.o., odnosno bilo koje
           usluge koja je navedena u istima, u cijelosti prihvaćate Uvjete
@@ -133,7 +145,7 @@ const PrivacyPolicy = () => {
           rezervacije.
         </p>
       </div>
-    </Helmet>
+    </>
   );
 };
 

@@ -1,12 +1,47 @@
 import { Container, Row, Col } from "reactstrap";
-import Helmet from "../components/Helmet/Helmet";
+import { Helmet } from "react-helmet";
+
 import CommonSection from "../components/UI/CommonSection";
 import FormContact from "../components/UI/FormContact";
 import "../styles/contact.css";
 
 const Contact = () => {
   return (
-    <Helmet title="Kontakt">
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Kontakt | Najam Kombija | Rent-a Kombi</title>
+        <link rel="canonical" href="https://auto-auron.hr/contact" />
+        <meta
+          name="description"
+          content="Kontaktirajte nas te ćemo Vam se javiti u najkraćem mogućem roku"
+        />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="Kontakt | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="twitter:description"
+          content="Kontaktirajte nas te ćemo Vam se javiti u najkraćem mogućem roku"
+        />
+
+        <meta
+          name="og:title"
+          content="Kontakt | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="og:description"
+          content="Kontaktirajte nas te ćemo Vam se javiti u najkraćem mogućem roku"
+        />
+        <meta name="og:url" content="https://auto-auron.hr/contact" />
+        <meta name="og:type" content="website" />
+        <meta name="og:locale" content="hr_HR" />
+      </Helmet>
       <CommonSection title="Kontakt" />
       <section>
         <Container>
@@ -40,7 +75,7 @@ const Contact = () => {
           </Row>
         </Container>
       </section>
-    </Helmet>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import HeroSlider from "../components/UI/HeroSlider";
-import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col } from "reactstrap";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
@@ -9,7 +9,41 @@ import CarItem from "../components/UI/CarItem";
 
 const Home = () => {
   return (
-    <Helmet title="Home">
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Početna | Najam Kombija | Rent-a Kombi</title>
+        <link rel="canonical" href="https://auto-auron.hr/home" />
+        <meta
+          name="description"
+          content="Početna | Najam Kombija | Rent-a Kombi"
+        />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="Početna | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="twitter:description"
+          content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
+        />
+
+        <meta
+          name="og:title"
+          content="Početna | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="og:description"
+          content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
+        />
+        <meta name="og:url" content="https://auto-auron.hr/home" />
+        <meta name="og:type" content="website" />
+        <meta name="og:locale" content="hr_HR" />
+      </Helmet>
       {/* ============= hero section =========== */}
       <section className="p-0 hero__slider-section">
         <HeroSlider />
@@ -46,7 +80,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-    </Helmet>
+    </>
   );
 };
 

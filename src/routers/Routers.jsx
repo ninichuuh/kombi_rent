@@ -7,8 +7,14 @@ import CarDetails from "../views/CarDetails";
 import NotFound from "../views/NotFound";
 import Contact from "../views/Contact";
 import PrivacyPolicy from "../views/PrivacyPolicy";
+import usePageTracking from "./PageTracking";
+
 
 const Routers = () => {
+ usePageTracking();
+
+
+
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 import "../styles/notfound.css"
 export default function Errorpage() {
@@ -7,7 +8,20 @@ export default function Errorpage() {
     navigate("/", { replace: true });
   };
   return (
-    
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Upssss</title>
+        <link rel="canonical" href="https://auto-auron.hr/404" />
+        <meta
+          name="description"
+          content="Pogreška | Najam Kombija | Rent-a Kombi"
+        />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+      </Helmet>
       <div id="oopss">
         <div id="error-text">
           <img
@@ -24,6 +38,7 @@ export default function Errorpage() {
           </a>
         </div>
       </div>
+      </>
   );
 }
 

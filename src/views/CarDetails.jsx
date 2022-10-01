@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import carData from "../assets/data/carData";
 import { Container, Row, Col } from "reactstrap";
-import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import FormBooking from "../components/UI/FormBooking";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -62,7 +62,38 @@ const CarDetails = () => {
       : Renault;
 
   return (
-    <Helmet title={singleCarItem.carName}>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{singleCarItem.carName} | Najam Kombija | Rent-a Kombi</title>
+        <link rel="canonical" href="https://auto-auron.hr/cars/[]" />
+        <meta
+          name="keywords"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+        />
+        <meta
+          name="description"
+          content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="O nama | Najam Kombija | Rent-a-Kombi"
+        />
+        <meta
+          name="twitter:description"
+          content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
+        />
+
+        <meta name="og:title" content="O nama | Najam Kombija | Rent-a-Kombi" />
+        <meta
+          name="og:description"
+          content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
+        />
+        <meta name="og:url" content="https://auto-auron.hr/cars/[]" />
+        <meta name="og:type" content="website" />
+        <meta name="og:locale" content="hr_HR" />
+      </Helmet>
       <section>
         <Container>
           <Row>
@@ -185,7 +216,7 @@ const CarDetails = () => {
           </Row>
         </Container>
       </section>
-    </Helmet>
+    </>
   );
 };
 
