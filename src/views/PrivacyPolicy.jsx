@@ -10,11 +10,11 @@ const PrivacyPolicy = () => {
         <link rel="canonical" href="http://auto-auron.hr/privacy" />
         <meta
           name="description"
-          content="Politika privatnosti | Najam Kombija | Rent-a Kombi"
+          content="Politika privatnosti | Najam Kombija | Rent a Kombi"
         />
         <meta
           name="keywords"
-          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent a Kombi, Kombi Rent, Najam Gospodarskih vozila"
         />
       </Helmet>
       <div className="mx-5">

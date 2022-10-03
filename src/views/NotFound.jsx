@@ -15,11 +15,11 @@ export default function Errorpage() {
         <link rel="canonical" href="https://auto-auron.hr/404" />
         <meta
           name="description"
-          content="Pogreška | Najam Kombija | Rent-a Kombi"
+          content="Pogreška | Najam Kombija | Rent a Kombi"
         />
         <meta
           name="keywords"
-          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent a Kombi, Kombi Rent, Najam Gospodarskih vozila"
         />
       </Helmet>
       <div id="oopss">
