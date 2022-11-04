@@ -1,15 +1,22 @@
-
 import img01 from "../all-images/cars-img/fiat_ducato.png";
 import img02 from "../all-images/cars-img/renault_master.png";
 import img03 from "../all-images/cars-img/mercedes.png";
+import img1xl from "../all-images/cars-img/fiat_ducato.webp";
+import img1sm from "../all-images/cars-img/fiat_ducato_400.webp";
+import img2xl from "../all-images/cars-img/ranault_master.webp";
+import img2sm from "../all-images/cars-img/ranault_master_400.webp";
+import img3xl from "../all-images/cars-img/mercedes.webp";
+import img3sm from "../all-images/cars-img/mercedes_400.webp";
 
 const carData = [
   {
     id: 1,
     brand: "Fiat",
-    rating: 12,
+    rating: 20,
     carName: "Fiat Ducato",
     imgUrl: img01,
+    imgxlUrl: img1xl,
+    imgsmUrl: img1sm,
     model: "Ducato",
     price: "600(79.63)",
     speed: "140kmh",
@@ -27,9 +34,11 @@ const carData = [
   {
     id: 2,
     brand: "Renault",
-    rating: 12,
+    rating: 20,
     carName: "Renault Master",
     imgUrl: img02,
+    imgxlUrl: img2xl,
+    imgsmUrl: img2sm,
     model: "Master",
     price: "500(66.44)",
     speed: "130kmh",
@@ -45,9 +54,11 @@ const carData = [
   {
     id: 3,
     brand: "Mercedes",
-    rating: 132,
+    rating: 151,
     carName: "Mercedes Sprinter Maxi",
     imgUrl: img03,
+    imgxlUrl: img3xl,
+    imgsmUrl: img3sm,
     model: "Sprinter Maxi",
     price: "500(66.44)",
     speed: "150kmh",
@@ -60,7 +71,7 @@ const carData = [
     height: "Visina Tovarnog Prostora: 1.90m",
     radio: "Radio",
     dodatno: "Centralno Zaključavanje",
-  }
+  },
 ];
 
 export default carData;

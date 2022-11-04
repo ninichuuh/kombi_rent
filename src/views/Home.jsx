@@ -12,11 +12,11 @@ const Home = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Početna | Najam Kombija | Rent-a Kombi</title>
-        <link rel="canonical" href="https://auto-auron.hr/home" />
+        <title> Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila</title>
+        <link rel="canonical" href="https://auto-auron.hr/" />
         <meta
           name="description"
-          content="Početna | Najam Kombija | Rent-a Kombi"
+          content="Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila"
         />
         <meta
           name="keywords"
@@ -25,7 +25,7 @@ const Home = () => {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Početna | Najam Kombija | Rent-a-Kombi"
+          content="Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila"
         />
         <meta
           name="twitter:description"
@@ -34,13 +34,13 @@ const Home = () => {
 
         <meta
           name="og:title"
-          content="Početna | Najam Kombija | Rent-a-Kombi"
+          content="Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila"
         />
         <meta
           name="og:description"
           content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
         />
-        <meta name="og:url" content="https://auto-auron.hr/home" />
+        <meta name="og:url" content="https://auto-auron.hr/" />
         <meta name="og:type" content="website" />
         <meta name="og:locale" content="hr_HR" />
       </Helmet>

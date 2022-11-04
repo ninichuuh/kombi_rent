@@ -3,11 +3,11 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import logo from "../../assets/all-images/logo.png"
+import logo from "../../assets/all-images/logo.png";
 
 const navLinks = [
   {
-    path: "/home",
+    path: "/",
     display: "Početna",
   },
   {
@@ -18,7 +18,6 @@ const navLinks = [
     path: "/cars",
     display: "Vozila",
   },
-
 
   {
     path: "/contact",
@@ -41,12 +40,13 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Trebate pomoć?</span>
                 <span className="header__top__help">
-                  <i className="ri-phone-fill"></i><a href="tel:+385995662470">+(385)99-566-2470</a>
+                  <i className="ri-phone-fill"></i>
+                  <a id="top-anchor" href="tel:+385995662470">
+                    +(385)99-566-2470
+                  </a>
                 </span>
               </div>
             </Col>
-
-           
           </Row>
         </Container>
       </div>
@@ -58,8 +58,8 @@ const Header = () => {
             <Col lg="4" md="3" sm="4">
               <div className="logo">
                 <h1>
-                  <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <img src={logo} alt="logo"/>
+                  <Link to="/" className=" d-flex align-items-center gap-2">
+                    <img src={logo} alt="logo" />
                   </Link>
                 </h1>
               </div>
@@ -130,9 +130,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
-             
-            </div>
+            <div className="nav__right"></div>
           </div>
         </Container>
       </div>

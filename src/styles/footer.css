@@ -33,7 +33,7 @@
  }
  
  .quick__link a:hover {
-  color: #f9a826
+  color: #B36205
  }
  
  .footer__link-title {
@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 12px;
-  border: 1px solid #7c8a972f;
+  border: 1px solid #6079952f;
   border-radius: 50px;
   background: #020a4de9
  }
@@ -61,16 +61,22 @@
   border: none;
   outline: none
  }
- 
+
+ #newsletter__description{
+  color: rgba(255, 255, 255, 0.715)
+ }
+  
  .newsletter span i {
   color: #fff
  }
  
  .footer__bottom {
-  border-top: 1px solid #7c8a972f
+  border-top: 1px solid #6079952f
  }
  
- 
+ #bot-anchor {
+  color: #7C8A97
+}
  
  @media only screen and (max-width: 768px) {
   .footer__logo-content {

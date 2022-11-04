@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
 import aboutImg from "../../assets/all-images/cars-img/About_img.png";
+import aboutImgLarge from "../../assets/all-images/cars-img/About_img.webp";
+import aboutImgSmall from "../../assets/all-images/cars-img/About_img_400.webp";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -56,7 +58,13 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img
+                className="img-fluid"
+                src={aboutImg}
+                srcSet={`${aboutImgSmall} 400w, ${aboutImgLarge} 700w`}
+                sizes="(max-width: 600px) 400px, (min-width: 700px) 700px"
+                alt="kuca"
+              />
             </div>
           </Col>
         </Row>

@@ -6,37 +6,20 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://auto-auron.hr/home</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
-</url>
-<url>
-  <loc>https://auto-auron.hr/privacy</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
-</url>
-<url>
-  <loc>https://auto-auron.hr/404</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
+  <loc>https://auto-auron.hr/</loc>
+  <lastmod>2022-11-03T11:15:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://auto-auron.hr/about</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
-</url>
-<url>
-  <loc>https://auto-auron.hr/</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://auto-auron.hr/</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
+  <lastmod>2022-11-03T11:15:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://auto-auron.hr/cars</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
+  <lastmod>2022-11-03T11:15:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://auto-auron.hr/contact</loc>
-  <lastmod>2022-09-30T21:07:51+00:00</lastmod>
+  <lastmod>2022-11-03T11:15:51+00:00</lastmod>
 </url>
 
 

@@ -4,8 +4,8 @@
  
  .booking__form input {
   padding: 8px 15px;
-  border: 1px solid #7c8a972a;
-  color: #7c8a97;
+  border: 1px solid #6079952a;
+  color: #607995;
   width: 100%
  }
  
@@ -13,14 +13,14 @@
  .textarea {
   width: 100%;
   padding: 10px 15px;
-  color: #7c8a97;
-  border: 1px solid #7c8a972a;
+  color: #607995;
+  border: 1px solid #6079952a;
   border-radius: 4px
  }
  
  .time__picker::before {
   content: "Journey Time";
-  color: #7c8a97;
+  color: #607995;
   margin-right: 0.5rem
  }
  
