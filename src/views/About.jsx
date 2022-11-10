@@ -22,19 +22,19 @@ const About = () => {
         />
         <meta
           name="keywords"
-          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent a Kombi, Kombi Rent, Najam Gospodarskih vozila"
         />
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="O nama | Najam Kombija | Rent-a-Kombi"
+          content="O nama | Najam Kombija | Rent a Kombi"
         />
         <meta
           name="twitter:description"
           content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."
         />
 
-        <meta name="og:title" content="O nama | Najam Kombija | Rent-a-Kombi" />
+        <meta name="og:title" content="O nama | Najam Kombija | Rent a Kombi" />
         <meta
           name="og:description"
           content="Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila."

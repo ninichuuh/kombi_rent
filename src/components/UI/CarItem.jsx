@@ -12,7 +12,7 @@ const CarItem = (props) => {
     speed,
     price,
     imgxlUrl,
-    imgsmUrl,
+    imgsmUrl
   } = props.item;
 
   return (
@@ -25,11 +25,12 @@ const CarItem = (props) => {
             srcSet={`${imgsmUrl} 400w, ${imgxlUrl} 700w`}
             sizes="(max-width: 800px) 400px, (min-width: 800px) 700px"
             alt="kuca"
+            loading="lazy"
           />
         </div>
 
         <div className="car__item-content mt-4">
-          <h4 className="section__title text-center">{carName}</h4>
+          <h2 className="section__title text-center">{carName}</h2>
           <p className="rent__price text-center mt-">
             {price}
             <span>kn(€)/ Dan</span>

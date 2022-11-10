@@ -7,23 +7,23 @@ import logo from "../../assets/all-images/logo.png";
 const quickLinks = [
   {
     path: "/about",
-    display: "O nama",
+    display: "O nama"
   },
 
   {
     path: "/privacy",
-    display: "Politika o Privatnosti",
+    display: "Politika o Privatnosti"
   },
 
   {
     path: "/cars",
-    display: "Ponuda vozila",
+    display: "Ponuda vozila"
   },
 
   {
     path: "/contact",
-    display: "Kontakt",
-  },
+    display: "Kontakt"
+  }
 ];
 
 const Footer = () => {
@@ -51,7 +51,7 @@ const Footer = () => {
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Brzi Linkovi</h5>
+              <span className="footer__link-title">Brzi Linkovi</span>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -64,7 +64,7 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Lokacija</h5>
+              <span className="footer__link-title mb-4">Lokacija</span>
               <p className="office__info">Žitnjak II. odvojak 14, Zagreb</p>
               <p className="office__info">
                 Phone:{" "}
@@ -81,7 +81,7 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
-              <h5 className="footer__link-title">Newsletter</h5>
+              <span className="footer__link-title">Newsletter</span>
               <p id="newsletter__description">Preplatite se na naš letak</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />

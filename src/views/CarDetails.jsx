@@ -22,7 +22,7 @@ import {
   fiat7,
   fiat8,
   fiat9,
-  renault,
+  renault
 } from "../assets/all-images/gallery-img/images";
 
 const imgBenz = [benz1, benz2, benz3];
@@ -65,11 +65,11 @@ const CarDetails = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{singleCarItem.carName} | Najam Kombija | Rent-a Kombi</title>
+        <title>{singleCarItem.carName} | Najam Kombija | Rent a Kombi</title>
         <link rel="canonical" href="https://auto-auron.hr/cars/[]" />
         <meta
           name="keywords"
-          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent a Kombi, Kombi Rent, Najam Gospodarskih vozila"
         />
         <meta
           name="description"
@@ -78,14 +78,14 @@ const CarDetails = () => {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="O nama | Najam Kombija | Rent-a-Kombi"
+          content="O nama | Najam Kombija | Rent a Kombi"
         />
         <meta
           name="twitter:description"
           content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
         />
 
-        <meta name="og:title" content="O nama | Najam Kombija | Rent-a-Kombi" />
+        <meta name="og:title" content="O nama | Najam Kombija | Rent a Kombi" />
         <meta
           name="og:description"
           content="Naša su vozila sigurna, pouzdana te redovno oržavana za vaš bezbrižan put"
@@ -104,7 +104,7 @@ const CarDetails = () => {
                 loop={true}
                 autoplay={{
                   delay: 2500,
-                  disableOnInteraction: false,
+                  disableOnInteraction: false
                 }}
                 modules={[Lazy, Autoplay]}
               >

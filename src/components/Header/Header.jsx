@@ -8,21 +8,21 @@ import logo from "../../assets/all-images/logo.png";
 const navLinks = [
   {
     path: "/",
-    display: "Početna",
+    display: "Početna"
   },
   {
     path: "/about",
-    display: "O nama",
+    display: "O nama"
   },
   {
     path: "/cars",
-    display: "Vozila",
+    display: "Vozila"
   },
 
   {
     path: "/contact",
-    display: "Kontakt",
-  },
+    display: "Kontakt"
+  }
 ];
 
 const Header = () => {
@@ -57,11 +57,11 @@ const Header = () => {
           <Row>
             <Col lg="4" md="3" sm="4">
               <div className="logo">
-                <h1>
+                <p>
                   <Link to="/" className=" d-flex align-items-center gap-2">
                     <img src={logo} alt="logo" />
                   </Link>
-                </h1>
+                </p>
               </div>
             </Col>
 
@@ -71,8 +71,8 @@ const Header = () => {
                   <i className="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4> Grad Zagreb, Hrvatska</h4>
-                  <h5>Žitnjak II. odvojak 14</h5>
+                  <span> Grad Zagreb, Hrvatska</span> <br />
+                  <span>Žitnjak II. odvojak 14</span>
                 </div>
               </div>
             </Col>
@@ -83,8 +83,8 @@ const Header = () => {
                   <i className="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Ponedjeljak-Subota</h4>
-                  <h6>08:30 - 20:30</h6>
+                  <span>Ponedjeljak-Subota</span> <br />
+                  <span>08:30 - 20:30</span>
                 </div>
               </div>
             </Col>

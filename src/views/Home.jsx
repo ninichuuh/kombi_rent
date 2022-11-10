@@ -12,20 +12,20 @@ const Home = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title> Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila</title>
+        <title> Najam Kombija | Rent a Kombi | Najam Gospodarskih Vozila</title>
         <link rel="canonical" href="https://auto-auron.hr/" />
         <meta
           name="description"
-          content="Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila"
+          content="Najam Kombija | Rent a Kombi | Najam Gospodarskih Vozila"
         />
         <meta
           name="keywords"
-          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent a Kombi, Kombi Rent, Najam Gospodarskih vozila"
         />
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila"
+          content="Najam Kombija | Rent a Kombi | Najam Gospodarskih Vozila"
         />
         <meta
           name="twitter:description"
@@ -34,7 +34,7 @@ const Home = () => {
 
         <meta
           name="og:title"
-          content="Najam Kombija | Rent-a Kombi | Najam Gospodarskih Vozila"
+          content="Najam Kombija | Rent a Kombi | Najam Gospodarskih Vozila"
         />
         <meta
           name="og:description"
@@ -55,7 +55,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Pogledajte ponudu</h6>
+              <span className="section__subtitle">Pogledajte ponudu</span>
               <h2 className="section__title">Naših vozila</h2>
             </Col>
 
@@ -70,7 +70,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Naša ponuda</h6>
+              <span className="section__subtitle">Naša ponuda</span>
               <h2 className="section__title">
                 Pouzdano, sigurno i fleksibilno
               </h2>

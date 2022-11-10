@@ -10,7 +10,7 @@ const Contact = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Kontakt | Najam Kombija | Rent-a Kombi</title>
+        <title>Kontakt | Najam Kombija | Rent a Kombi</title>
         <link rel="canonical" href="https://auto-auron.hr/contact" />
         <meta
           name="description"
@@ -18,12 +18,12 @@ const Contact = () => {
         />
         <meta
           name="keywords"
-          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent-a Kombi, Kombi Rent, Najam Gospodarskih vozila"
+          content="Kombi, Najam Kombija, Najam Gospodarskih Vozila, Rent a Kombi, Kombi Rent, Najam Gospodarskih vozila"
         />
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Kontakt | Najam Kombija | Rent-a-Kombi"
+          content="Kontakt | Najam Kombija | Rent a Kombi"
         />
         <meta
           name="twitter:description"
@@ -32,7 +32,7 @@ const Contact = () => {
 
         <meta
           name="og:title"
-          content="Kontakt | Najam Kombija | Rent-a-Kombi"
+          content="Kontakt | Najam Kombija | Rent a Kombi"
         />
         <meta
           name="og:description"

@@ -20,7 +20,7 @@ const ServiceItem = ({ item }) => (
         <i className={item.icon} />
       </span>
 
-      <h6>{item.title}</h6>
+      <h3>{item.title}</h3>
       <p className="section__description">{item.desc}</p>
     </div>
   </Col>
