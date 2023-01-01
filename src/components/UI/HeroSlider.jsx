@@ -15,7 +15,7 @@ const HeroSlider = () => {
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    pauseOnHover: false
+    pauseOnHover: false,
   };
   return (
     <Slider {...settings} className="hero__slider">
@@ -23,9 +23,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h1 className="text-light mb-3 display-1">Najam kombija</h1>
-            <p className="text-light mb-4 display-2">
-              Već od 66.44€ po danu
-            </p>
+            <p className="text-light mb-4 display-2">Već od 70€ po danu</p>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rezervirajte odmah</Link>
@@ -38,9 +36,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h1 className="text-light mb-3 display-1">Najam kombija</h1>
-            <p className="text-light mb-4 display-2">
-              Već od 66.44€ po danu
-            </p>
+            <p className="text-light mb-4 display-2">Već od 70€ po danu</p>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rezervirajte odmah</Link>
@@ -53,9 +49,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h1 className="text-light mb-3 display-1">Najam kombija</h1>
-            <p className="text-light mb-4 display-2">
-              Već od 66.44€ po danu
-            </p>
+            <p className="text-light mb-4 display-2">Već od 70€ po danu</p>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rezervirajte odmah</Link>
