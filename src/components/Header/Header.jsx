@@ -3,27 +3,26 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import logo from "../../assets/all-images/logo.png"
+import logo from "../../assets/all-images/logo.png";
 
 const navLinks = [
   {
-    path: "/home",
-    display: "Početna",
+    path: "/",
+    display: "Početna"
   },
   {
     path: "/about",
-    display: "O nama",
+    display: "O nama"
   },
   {
     path: "/cars",
-    display: "Vozila",
+    display: "Vozila"
   },
-
 
   {
     path: "/contact",
-    display: "Kontakt",
-  },
+    display: "Kontakt"
+  }
 ];
 
 const Header = () => {
@@ -41,12 +40,13 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Trebate pomoć?</span>
                 <span className="header__top__help">
-                  <i className="ri-phone-fill"></i><a href="tel:+385995662470">+(385)99-566-2470</a>
+                  <i className="ri-phone-fill"></i>
+                  <a id="top-anchor" href="tel:+385995662470">
+                    +(385)99-566-2470
+                  </a>
                 </span>
               </div>
             </Col>
-
-           
           </Row>
         </Container>
       </div>
@@ -57,11 +57,11 @@ const Header = () => {
           <Row>
             <Col lg="4" md="3" sm="4">
               <div className="logo">
-                <h1>
-                  <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <img src={logo} alt="logo"/>
+                <p>
+                  <Link to="/" className=" d-flex align-items-center gap-2">
+                    <img src={logo} alt="logo" />
                   </Link>
-                </h1>
+                </p>
               </div>
             </Col>
 
@@ -71,8 +71,8 @@ const Header = () => {
                   <i className="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4> Grad Zagreb, Hrvatska</h4>
-                  <h5>Žitnjak II. odvojak 14</h5>
+                  <span> Grad Zagreb, Hrvatska</span> <br />
+                  <span>Žitnjak II. odvojak 14</span>
                 </div>
               </div>
             </Col>
@@ -83,8 +83,8 @@ const Header = () => {
                   <i className="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Ponedjeljak-Subota</h4>
-                  <h6>08:30 - 20:30</h6>
+                  <span>Ponedjeljak-Subota</span> <br />
+                  <span>08:30 - 20:30</span>
                 </div>
               </div>
             </Col>
@@ -130,9 +130,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
-             
-            </div>
+            <div className="nav__right"></div>
           </div>
         </Container>
       </div>

@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: "Source Sans Pro", sans-serif
 }
 h1,
 h2,
@@ -40,12 +38,12 @@ ul {
  font-size: 2rem
 }
 .section__subtitle {
- color: #f9a826;
+ color: #B36205;
  font-weight: 600;
  font-size: 1.2rem
 }
 .section__description {
- color: #7c8a97;
+ color: #607995;
  font-size: 0.9rem;
  line-height: 30px
 }

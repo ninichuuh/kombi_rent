@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "../views/Home";
 import About from "../views/About";
 import CarListing from "../views/CarListing";
@@ -9,16 +9,12 @@ import Contact from "../views/Contact";
 import PrivacyPolicy from "../views/PrivacyPolicy";
 import usePageTracking from "./PageTracking";
 
-
 const Routers = () => {
- usePageTracking();
-
-
+  usePageTracking();
 
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/home" />} />
-      <Route path="/home" element={<Home />} />
+      <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/cars" element={<CarListing />} />
       <Route path="/cars/:slug" element={<CarDetails />} />

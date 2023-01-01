@@ -4,20 +4,37 @@ import { Link } from "react-router-dom";
 import "../../styles/car-item.css";
 
 const CarItem = (props) => {
-  const { imgUrl, model, carName, automatic, speed, price } = props.item;
+  const {
+    imgUrl,
+    model,
+    carName,
+    automatic,
+    speed,
+    price,
+    imgxlUrl,
+    imgsmUrl
+  } = props.item;
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">
       <div className="car__item">
         <div className="car__img">
-          <img src={imgUrl} alt="" className="w-100" />
+          <img
+            className="img-fluid"
+            src={imgUrl}
+            srcSet={`${imgsmUrl} 400w, ${imgxlUrl} 700w`}
+            sizes="(max-width: 800px) 400px, (min-width: 800px) 700px"
+            alt="kuca"
+            loading="lazy"
+          />
         </div>
 
         <div className="car__item-content mt-4">
-          <h4 className="section__title text-center">{carName}</h4>
-          <h6 className="rent__price text-center mt-">
-            {price}<span>kn(€)/ Dan</span>
-          </h6>
+          <h2 className="section__title text-center">{carName}</h2>
+          <p className="rent__price text-center mt-">
+            {price}
+            <span>kn(€)/ Dan</span>
+          </p>
 
           <div className="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
             <span className=" d-flex align-items-center gap-1">

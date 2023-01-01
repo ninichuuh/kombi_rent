@@ -1,6 +1,6 @@
 {
   "name": "kombi_rent",
-  "version": "3.1.0",
+  "version": "5.0.0",
   "homepage": "https://www.auto-auron.hr/",
   "private": true,
   "dependencies": {
@@ -30,8 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "sitemap": "babel-node sitemap-generator.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

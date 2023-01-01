@@ -3,29 +3,27 @@ import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
-import logo from "../../assets/all-images/logo.png"
+import logo from "../../assets/all-images/logo.png";
 const quickLinks = [
   {
     path: "/about",
-    display: "O nama",
+    display: "O nama"
   },
 
   {
     path: "/privacy",
-    display: "Politika o Privatnosti",
+    display: "Politika o Privatnosti"
   },
 
   {
     path: "/cars",
-    display: "Ponuda vozila",
+    display: "Ponuda vozila"
   },
-   
-  
 
   {
     path: "/contact",
-    display: "Kontakt",
-  },
+    display: "Kontakt"
+  }
 ];
 
 const Footer = () => {
@@ -38,19 +36,22 @@ const Footer = () => {
           <Col lg="4" md="4" sm="12">
             <div className="logo footer__logo">
               <h1>
-                <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <img src={logo} alt="logo"/>
+                <Link to="/" className=" d-flex align-items-center gap-2">
+                  <img src={logo} alt="logo" />
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-            Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne najmove gospodarskih vozila. Ako trebate unajmiti kombi, s ponosom nudimo vozila i usluge svjetske klase po pristupačnoj cijeni. 
+              Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih
+              vozila za korisnike diljem zemlje. Nudimo kratkoročne i dugoročne
+              najmove gospodarskih vozila. Ako trebate unajmiti kombi, s ponosom
+              nudimo vozila i usluge svjetske klase po pristupačnoj cijeni.
             </p>
           </Col>
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Brzi Linkovi</h5>
+              <span className="footer__link-title">Brzi Linkovi</span>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -63,9 +64,14 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Lokacija</h5>
+              <span className="footer__link-title mb-4">Lokacija</span>
               <p className="office__info">Žitnjak II. odvojak 14, Zagreb</p>
-              <p className="office__info">Phone: <a href="tel:+385995662470">+(385)99-566-2470</a></p>
+              <p className="office__info">
+                Phone:{" "}
+                <a id="bot-anchor" href="tel:+385995662470">
+                  +(385)99-566-2470
+                </a>
+              </p>
 
               <p className="office__info">Email: infoautoauron@gmail.com</p>
 
@@ -75,8 +81,8 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
-              <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Preplatite se na naš letak</p>
+              <span className="footer__link-title">Newsletter</span>
+              <p id="newsletter__description">Preplatite se na naš letak</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
@@ -89,8 +95,8 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i className="ri-copyright-line"></i>Copyright {year}, Developed by
-                MiInI. All rights reserved.
+                <i className="ri-copyright-line"></i>Copyright {year}, Developed
+                by MiInI. All rights reserved.
               </p>
             </div>
           </Col>

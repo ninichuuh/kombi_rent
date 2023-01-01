@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
 import aboutImg from "../../assets/all-images/cars-img/About_img.png";
+import aboutImgLarge from "../../assets/all-images/cars-img/About_img.webp";
+import aboutImgSmall from "../../assets/all-images/cars-img/About_img_400.webp";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -17,8 +19,8 @@ const AboutSection = ({ aboutClass }) => {
         <Row>
           <Col lg="6" md="6">
             <div className="about__section-content">
-              <h4 className="section__subtitle">O nama</h4>
-              <h2 className="section__title">Ukratko o nama Auto-Auron</h2>
+              <span className="section__subtitle">O nama</span>
+              <h2 className="section__title">Ukratko o Auto-Auron</h2>
               <p className="section__description">
                 Auto-Auron vodeći je u industriji iznajmljivanja gospodarskih
                 vozila za korisnike diljem zemlje. Nudimo kratkoročne i
@@ -56,7 +58,14 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img
+                className="img-fluid"
+                src={aboutImg}
+                srcSet={`${aboutImgSmall} 400w, ${aboutImgLarge} 700w`}
+                sizes="(max-width: 600px) 400px, (min-width: 700px) 700px"
+                alt="kuca"
+                loading="lazy"
+              />
             </div>
           </Col>
         </Row>
