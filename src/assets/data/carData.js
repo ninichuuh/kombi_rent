@@ -12,7 +12,7 @@ const carData = [
   {
     id: 1,
     brand: "Fiat",
-    rating: 20,
+    rating: 23,
     carName: "Fiat Ducato",
     imgUrl: img01,
     imgxlUrl: img1xl,
@@ -34,7 +34,7 @@ const carData = [
   {
     id: 2,
     brand: "Renault",
-    rating: 20,
+    rating: 70,
     carName: "Renault Master",
     imgUrl: img02,
     imgxlUrl: img2xl,
@@ -54,7 +54,7 @@ const carData = [
   {
     id: 3,
     brand: "Mercedes",
-    rating: 151,
+    rating: 121,
     carName: "Mercedes Sprinter Maxi",
     imgUrl: img03,
     imgxlUrl: img3xl,

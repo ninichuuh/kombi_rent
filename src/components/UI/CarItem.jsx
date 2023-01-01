@@ -33,7 +33,7 @@ const CarItem = (props) => {
           <h2 className="section__title text-center">{carName}</h2>
           <p className="rent__price text-center mt-">
             {price}
-            <span>kn(€)/ Dan</span>
+            <span>€/Dan</span>
           </p>
 
           <div className="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
